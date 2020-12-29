@@ -1,13 +1,18 @@
-@import "~normalize.css";
+@import '~normalize.css';
 
-@import "_variables";
-@import "modules/hello.scss";
+@import '_variables';
+@import 'modules/hello.scss';
+
+:root {
+    --background-color: #ccc;
+    --font-color: #333;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+    background: var(--background-color);
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
