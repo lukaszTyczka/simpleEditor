@@ -66,25 +66,16 @@
     media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
 </head>
 <body>
-  <header>
-    <div>
-      <input type="radio" id="dark" name="colorStyle" value="dark" checked>
-      <label for="dark">Dark</label>
-    </div>
-    <div>
-      <input type="radio" id="light" name="colorStyle" value="light">
-      <label for="dark">Light</label>
-    </div>
-    <div>
-      <input type="radio" id="matrix" name="colorStyle" value="matrix">
-      <label for="matrix">Matrix</label>
-    </div>
-
-  </header>
   <main>
-    <p>
-      text
-    </p>
+    <section class="editor">
+      <h1 class="editor__title">Editor</h1>
+      <textarea class="editor__textarea editor__textarea--js"></textarea>
+      <div class="editor__buttons-area">
+        <button class="editor__button editor__button--clear editor__button--clear--js">Clear</button>
+        <button class="editor__button editor__button--save editor__button--save--js">Save</button>
+        <button class="editor__button editor__button--load editor__button--load--js">Load</button>
+      </div>
+    </section>
   </main>
 
 </body>

@@ -2,10 +2,11 @@
 
 @import '_variables';
 @import 'modules/hello.scss';
+@import 'modules/editor.scss';
 
 :root {
-    --background-color: #ccc;
-    --font-color: #333;
+    --background-color: #333;
+    --font-color: #14c704;
 }
 
 body {

@@ -1,0 +1,37 @@
+.editor {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    &__textarea {
+        width: 400px;
+        height: 500px;
+    }
+    &__buttons-area {
+        margin-top: 30px;
+        display: inline;
+    }
+    &__button {
+        background: var(--font-color);
+        border: none;
+        border-radius: 15px;
+        height: 2em;
+        width: 100px;
+        margin: 0 20px;
+        font-size: 1.2em;
+        font-weight: 600;
+        &--clear {
+            background: #df012d;
+            color: #ddd;
+            &:hover {
+            }
+        }
+        &--save {
+            background: #00a800;
+            color: #ddd;
+        }
+        &--load {
+            background: rgb(0, 110, 212);
+            color: #ddd;
+        }
+    }
+}
